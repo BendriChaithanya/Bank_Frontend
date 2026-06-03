@@ -1,0 +1,31 @@
+html,
+body,
+#root {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+}
+
+#root {
+    max-width: none;
+    text-align: initial;
+    border: none;
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+}
