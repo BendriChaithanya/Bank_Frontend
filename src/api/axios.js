@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: import.meta.env.VITE_API_URL || "bankbackend-production.up.railway.app"
+    baseURL: import.meta.env.VITE_API_URL || "bankbackend-production-f72d.up.railway.app"
 });
 
 API.interceptors.request.use((config) => {
